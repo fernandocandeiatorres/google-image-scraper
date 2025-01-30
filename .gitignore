@@ -26,5 +26,6 @@ Thumbs.db
 *.swp
 
 # links
-links.csv
+*.csv
+TODO.txt
 images/
