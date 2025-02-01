@@ -1,6 +1,10 @@
-# **Google Image Scraper**
+# **Google Image Scraper & Image Labeling for Dataset & Image Classification with CNN** 
 
 A Python-based Google Image Scraper that automates the process of searching for images on Google, extracting image URLs, and downloading them locally. This tool uses **Selenium**, **Pandas**, **BeautifulSoup**, and **Concurrency** to efficiently handle scraping and downloading.
+
+After scraping and saving the images, you can label the images and save it to a dataset in this format: id/img_name/label. Labeling it using ResNet50 pretrained model.
+
+Also, a CNN for Image Classification.
 
 ---
 
