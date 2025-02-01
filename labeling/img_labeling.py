@@ -6,7 +6,7 @@ import pandas as pd
 import os
 import kagglehub
 from pathlib import Path
-from torchvision.models import ResNet18_Weights
+from torchvision.models import ResNet50_Weights
 import re
 
 # Define image folder path
@@ -22,7 +22,7 @@ with open(f"{path}/imagenet_labels.json", "r") as f:
     imagenet_classes = json.load(f)
 
 # Load pretrained model (Resnet)
-model = models.resnet18(weights=ResNet18_Weights.DEFAULT)
+model = models.resnet50(weights=ResNet50_Weights.DEFAULT)
 model.eval()
 
 # Image preprocessing

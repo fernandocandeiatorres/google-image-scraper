@@ -29,3 +29,5 @@ Thumbs.db
 *.csv
 TODO.txt
 images/
+data/
+trained_net.pth
